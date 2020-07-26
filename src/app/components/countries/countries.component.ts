@@ -12,7 +12,7 @@ import { GlobalDataSummary } from 'src/app/models/global-data';
 })
 export class CountriesComponent implements OnInit {
 
-  data: GlobalDataSummary[];
+  data;
   countries: string[] = [];
   totalConfirmed = 0;
   totalActive = 0;
